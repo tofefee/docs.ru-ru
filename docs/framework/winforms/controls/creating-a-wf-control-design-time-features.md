@@ -95,7 +95,7 @@ ms.locfileid: "43865869"
 6.  Необходимо использовать типы из сборки System.Design, поэтому добавьте этот справочник, чтобы `MarqueeControlLibrary` проекта.  
   
     > [!NOTE]
-    >  Чтобы использовать сборки System.Design, ваш проект должен быть предназначен для полной версии платформы .NET Framework, а не клиентский профиль .NET Framework. Чтобы изменить целевую платформу, см. в разделе [как: Определение целевой версии платформы .NET Framework](/visualstudio/ide/how-to-target-a-version-of-the-dotnet-framework).  
+    >  Чтобы использовать сборки System.Design, ваш проект должен быть предназначен для полной версии платформы .NET Framework, а не клиентский профиль .NET Framework. Как изменить целевую платформу, см. в разделе [как: Определение целевой версии платформы .NET Framework](/visualstudio/ide/how-to-target-a-version-of-the-dotnet-framework).  
   
 ## <a name="referencing-the-custom-control-project"></a>Ссылки на проект пользовательского элемента управления  
  Вы воспользуетесь `MarqueeControlTest` проекта для тестирования пользовательского элемента управления. Тестовый проект узнает об пользовательского элемента управления при добавлении в проект ссылку на `MarqueeControlLibrary` сборки.  
